@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#nav-part1 h5{
+    text-decoration: none;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: rgba(83, 82, 82, 0.945);
+    cursor: pointer;
+}
+#nav img{
+    height: 60px;
+}
+#nav-part2 button{
+    height: 30px;
+    width: 70px;
+    padding: 8px,17px;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    background-color: #ea4c89;
+    color: white;
+}
+#nav-part2 #btn2{
+    background-color: white;
+    color: black;
+}
+#center{
+    height: 78%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    position: relative;
+}
+#center video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 40px 0;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+#tags{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    cursor: pointer;
+}
+#tags h4{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 200;
+    background-color: black;
+    transition: all ease 0.5s;
+}
+#tags h4:nth-child(1){
+    background-color: #fff;
+    color: black;
+}
+#tags h4:hover{
+    background-color: white;
+    color: black;
+}
+#main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 25px;
+    font-family: Gilroy;
+    font-weight: 500;
+}
+#main h1{
+    font-size: 30px;
+}
+#main p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+#main input{
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
+    border: none;
+}
+#hero{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+#hero a{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.541);
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    transition: all ease 0.3s;
+}
+#hero a:hover{
+    border-color: white;
+}
+#hero h2{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+::selection{
+    background-color: #ea4c89;
+}
+#aru{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.elem{
+    height: 180px;
+    width: 230px;
+    border-radius: 8px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: red;
+    margin: 9px;
+    position: relative;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.elem #cover{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(transparent,rgb(24, 24, 24));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    bottom: -40%;
+    transition: all ease 0.3s;
+    opacity: 0;
+}
+.elem #cover h6{
+    color: #fff;
+    font-size: 12px;
+}
+.elem #cover i{
+    color: gray;
+    background-color: #fff;
+    padding: 5px;
+    margin: 7px;
+    border-radius: 3px;
+    font-size: 12px;
+
+}
+.elem:hover #cover{
+    bottom: 0;
+    opacity: 1;
+}
+.elem video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
